@@ -33,12 +33,15 @@ $ python-
 $ from dask.distributed import Client
 $ client = Client('/IP & PUERTOS DEL SCHEDULER/')
 ```
-# You're free to use it
+# Listo para usar
 Ahora ya podemos utilizar funcinoes y crea variables y enviarlos al Scheduler con comandos como:
 ```
 $ miVariable = client.submit(funcion, args)   #para mandar funciones al scheduler
 $ result = client.gather(miVariable)          #para recuperar data ya procesada
 ```
+
+# Explicación de codigo
+*dentro del .py se explica
 
 # Video de demostración
 https://youtu.be/3hNEp4wzB3A
