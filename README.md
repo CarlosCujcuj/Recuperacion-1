@@ -39,3 +39,6 @@ Ahora ya podemos utilizar funcinoes y crea variables y enviarlos al Scheduler co
 $ miVariable = client.submit(funcion, args)   #para mandar funciones al scheduler
 $ result = client.gather(miVariable)          #para recuperar data ya procesada
 ```
+
+# Video de demostración
+https://youtu.be/3hNEp4wzB3A
